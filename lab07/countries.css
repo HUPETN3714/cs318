@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+.stamp{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border-style: dashed;
+    border-color: aquamarine;
+    border-width: 4px;
+    filter: drop-shadow(10px 10px 10px);
+}
+body{
+    background-color: blanchedalmond;
+}
+#thailand{
+    background-image: url(https://kids.nationalgeographic.com/explore/countries/thailand/_jcr_content/content/textimage/image.ngsversion.1395682252373.img.gif),
+    url(https://kids.nationalgeographic.com/explore/countries/thailand/_jcr_content/content/textimage_0/image.ngsversion.1470934972497.img.jpg);
+    background-repeat: no-repeat,
+    no-repeat;
+    background-position: top right,
+    center;
+    background-size: 100px auto,
+    auto 300px;
+}
+#greece{
+    background-image: url(https://kids.nationalgeographic.com/explore/countries/greece/_jcr_content/content/textimage/image.ngsversion.1394814083604.img.gif),
+    url(https://kids.nationalgeographic.com/explore/countries/greece/_jcr_content/content/textimage_0/image.ngsversion.1465847629723.img.png/1465847629723.png);
+    background-repeat: no-repeat,
+    no-repeat;
+    background-position: top right,
+    center;
+    background-size: 100px auto,
+    auto 300px;
+}
+#morocco{
+    background-image: url(https://kids.nationalgeographic.com/explore/countries/morocco/_jcr_content/content/textimage/image.ngsversion.1395862221573.img.gif),
+    url(https://kids.nationalgeographic.com/explore/countries/morocco/_jcr_content/content/textimage_0/image.ngsversion.1506977034108.img.jpg);
+    background-repeat: no-repeat,
+    no-repeat;
+    background-position: top right,
+    center;
+    background-size: 100px auto,
+    auto 300px;
+}
+#poland{
+    background-image: url(https://kids.nationalgeographic.com/explore/countries/poland/_jcr_content/content/textimage/image.ngsversion.1395065188690.img.gif),
+    url(https://kids.nationalgeographic.com/explore/countries/poland/_jcr_content/content/textimage_0/image.ngsversion.1465849248837.img.jpg);
+    background-repeat: no-repeat,
+    no-repeat;
+    background-position: top right,
+    center;
+    background-size: 100px auto,
+    auto 300px;
+}
