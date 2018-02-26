@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   margin: 0px;
+
+}
+.blurb{
+    width: 90%;
+    filter: drop-shadow(10px 10px 10px);
+    font-family: 'Josefin Sans', sans-serif;
+    border-style: solid;
+    border-width: 1px;
+    min-height: 202px;
+    min-width: 400px;
+    margin:75px 0px 75px 0px;
+}
+h1{
+    background-image: linear-gradient(to right, rgb(128, 0, 128), forestgreen);
+    color: rgb(110,220, 110);
+    text-align: center;
+    box-shadow:inset 0px -5px 4px #ffffff;
+}
+span{
+    color: rgb(255, 108, 255);
+}
+.left{
+    background-image: url(https://cdn.bulbagarden.net/upload/3/3d/197Umbreon.png);
+    background-repeat: no-repeat;
+    background-size: auto 200px;
+    background-color: purple;
+    padding-left: 200px;
+    padding-right: 100px;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+.right{
+    background-image: url(https://cdn.bulbagarden.net/upload/b/bb/135Jolteon.png);
+    background-repeat: no-repeat;
+    background-size: auto 200px;
+    background-position: right;
+    background-color: forestgreen;
+    margin-left: auto;
+    padding-right: 200px;
+    padding-left: 100px;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
+}
