@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    background-color: white;
+}
+body{
+width: 600px;
+margin: 0 auto;
+box-shadow: 0 0 10px grey;
+background-color: gold;
+}
+ul{
+    list-style-type: none;
+}
+header{
+background-color: red;
+margin: 0;
+padding: 10px;
+}
+h1{
+    margin: 0;
+    font-size: 30pt;
+    text-align: center;
+}
+p{
+    margin:0;
+}
+nav{
+background-color: gold;
+float: left;
+padding: 10px;
+}
+main{
+background-color: orange;
+padding: 10px;
+margin-left: 170px;
+}
+footer{
+background-color: burlywood;
+padding: 10px;
+}
+a:link{
+text-decoration: none;
+}
+.pizza{
+    width: 400px;
+    height: auto;
+    padding-left: 8px;
+}
+#order{
+    float: left;
+    position: fixed;
+    background-image: url(http://www.pngmart.com/files/1/Pepperoni-Pizza.png);
+    width: 150px;
+    height: 150px;
+    z-index: 289;
+}
+#why{
+    z-index: -1;
+}

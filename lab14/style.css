@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+.full{
+    height:1000px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+#cat{
+    background-image: url(https://cdn.pixabay.com/photo/2018/02/27/20/44/cute-3186546_960_720.jpg);
+    background-repeat: no-repeat;
+}
+.blue{
+    width: 50%;
+    float: left;
+}
+.green{
+    width: 50%;
+    float: right;
+}
+ol{
+    font-size: 16pt;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: lightsalmon;
+}
+header{
+    text-align: center;
+    font-size: 36pt;
+    color: teal;
+    text-shadow: 2px 2px black;
+    padding-top: 50px;
+}
+p{
+    font-size: 16pt;
+}
+.social{
+    width: 75px;
+    height: 75px;
+}
+.social:hover{
+    box-shadow: 5px 5px 5px black;
+}
