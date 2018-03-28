@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+#canyon{
+    background-image: url(https://www.nps.gov/grca/planyourvisit/images/Yaki-5197.jpg?maxwidth=650&autorotate=false);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:300px;
+    width:500px;
+    float: left;
+    margin:5px;
+}
+.grandma{
+   opacity:0.7;
+   padding:2px;
+   margin: 8px;
+   background-color: rgb(140, 83, 18);
+   width: 90px;
+   height: 80px;
+   text-align: left;
+   float: right;
+   border-radius: 10px;
+   position: relative;
+   left: -30px;
+   top: -20px;
+}
+span{
+    color: rgb(255, 228, 126);
+}
+img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:300px;
+    width:500px;
+    float:right;
+    margin:5px;
+    right: 0px;
+}
+#forest{
+    background-image: url(http://www.visitcalifornia.com/sites/default/files/styles/welcome_image/public/VC_Kidifornia_SupportingContent_MylesMcGuinness_SC-Redwoods9MQ_4891_1280x640_0.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:300px;
+    width:500px;
+    float: left;
+    margin:5px;
+}
+#green{
+    background-image: url(https://vacationspotindonesia.files.wordpress.com/2015/06/green-canyon-pangandaran-11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:300px;
+    width:500px;
+    float: right;
+    margin:5px;
+}
+.grandmom{
+    opacity:0.7;
+    padding:2px;
+    margin: 8px;
+    background-color: rgb(140, 83, 18);
+    width: 90px;
+    height: 80px;
+    text-align: left;
+    float: right;
+    border-radius: 10px;
+    position: relative;
+    left: -200px;
+    top: -20px;
+ }
