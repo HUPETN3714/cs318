@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+td{
+    border: 1px solid black;
+    width:3em;
+    height:3em;
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+}
+#free{
+    background-color: aqua;
+}
+td:hover{
+    background-color: yellow;
+}
