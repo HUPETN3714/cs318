@@ -39,6 +39,7 @@ ul{
     border-top: 1px solid white;
     position: relative;
     padding: 10px;
+    display: inline-block;
 }
 .menu:hover{
     background-color: rgb(46, 46, 46);
@@ -56,17 +57,40 @@ ul{
     box-shadow:2px 2px 5px black;
     left: 0px;
     visibility: hidden;
-    display:inline-block;
 }
 .menu li:not(:last-child){
     border-bottom: 1px solid white;
 }
 a{
     color: white;
+    width: 150px;
     text-decoration: none;
     display: block;
-    padding: 10px 100px 10px 10px;
+    padding: 10px 10px 10px 10px;
 }
 a:hover{
     background-color: grey;
+}
+header .menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-left: 1px solid white;
+    border-right: none;
+    border-top: none;
+    font-size:22pt;
+    visibility: hidden;
+}
+header .menu ul{
+    font-size: 16pt;
+    left: auto;
+    right: 0;
+}
+@media (max-width: 800px){
+    nav{
+        visibility: hidden;
+    }
+    header .menu{
+        visibility: visible;
+    }
 }
