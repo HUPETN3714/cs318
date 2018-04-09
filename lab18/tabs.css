@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+.tab{
+    display: inline-block;
+    background-color: lightcoral;
+    width: 150px;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    cursor: pointer;
+    outline: none;
+}
+.tab:focus{
+    background-color: rgb(238, 83, 83);
+}
+.panel{
+    background-color: rgb(238, 83, 83);
+    position: absolute;
+    left: auto;
+    visibility: hidden;
+}
+.parent{
+    position: relative;
+    display: inline-block;
+}
+#panel0{
+    background-color: lightcoral;
+    display: block;
+    visibility: visible;
+}
+#a:focus ~ #panel1{
+    visibility: visible;
+}
+#b:focus ~ #panel2{
+    visibility: visible;
+}
+#c:focus ~ #panel3{
+    visibility: visible;
+}
