@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+#flowerbed {
+    position: absolute;
+    top: 25%;
+    left:25%;
+}
+img{
+    width: 129px;
+    height: 129px;
+    margin: 10px;
+    float: left;
+}
+img:nth-child(4n+1){
+    clear: both;
+}
+div#flowerbed>img {
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+div#flowerbed>img:hover {
+    opacity: 1;
+    transform: scale(1.5,1.5) rotate(0.5turn);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+#flowerbed:hover>img {
+    opacity: .10;
+}
+a {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
