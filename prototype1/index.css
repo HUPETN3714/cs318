@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.full{
+    height:1000px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+#hart{
+
+}
+
+h1{
+    text-align: center;
+}
+body{
+    background-color: #F9F59F;
+}
+header{
+    text-align: center;
+    font-size: 36pt;
+    color: teal;
+    text-shadow: 2px 2px black;
+    padding-top: 50px;
+}
+p{
+    font-size: 16pt;
+}
