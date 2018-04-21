@@ -59,11 +59,9 @@ main{
 }
 .boot{
     float: right;
-    width: 100px;
-    height: 100px;
     position: absolute;
 }
 img{
     width: 100px;
-    height: auto;
+    height: 200px;
 }
