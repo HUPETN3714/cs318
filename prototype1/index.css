@@ -55,5 +55,9 @@ li{
     font-size: 18pt;
 }
 .boot{
-    float:left;
+    float:right;
+}
+img{
+    width: 300px;
+    height: 300px;
 }
