@@ -62,6 +62,7 @@ main{
     position: absolute;
     font-family: sans-serif;
     font-size: 16pt;
+    text-align: center;
 }
 img{
     width: 100px;
