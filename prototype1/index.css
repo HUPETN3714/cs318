@@ -68,7 +68,7 @@ figure{
     margin: 10px;
 }
 .figure{
-    margin-left:300px;
+    margin-left:350px;
     margin-right: auto;
 }
 img.scaled{
@@ -94,16 +94,4 @@ figcaption{
     float: right;
     font-size: 20pt;
     margin: 15px;
-}
-@media screen (max-width: 480px;){
-    body{margin: 0;}
-    main{margin-left: 0;}
-    nav li{
-        display: block;
-        float: left;
-    }
-    nav ul{text-align: center;}
-    nav a {border-style: none;}
-    h1{font-size: 120%;}
-    header{background-color: blueviolet;}
 }
