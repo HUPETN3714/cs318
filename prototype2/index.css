@@ -139,7 +139,7 @@ img{
     height: 30px;
 }
 @media only screen and (max-width:768px){
-    body{
+    p{
         font-size: 30pt;
     }
     nav{
@@ -158,12 +158,7 @@ img{
         margin: 0;
         line-height: 50px;
     }
-    .scaled{
-        width:50%;
-        height: 50%;
-    }
-    #item{
-        width: 50%;
-        height:50%;
+    header{
+        font-size: 40px;
     }
 }
